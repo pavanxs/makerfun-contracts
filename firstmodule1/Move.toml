@@ -1,0 +1,17 @@
+[package]
+name = "testmodule"
+version = "1.0.0"
+authors = []
+
+[addresses]
+exampleAddress ="0x7517151a387eec2635a1205b5fe389726e75a0551a9c103711de5e101c0d0bcb"
+
+
+[dev-addresses]
+
+[dependencies.SupraFramework]
+git = "https://github.com/Entropy-Foundation/aptos-core.git"
+rev = "dev"
+subdir = "aptos-move/framework/supra-framework"
+
+[dev-dependencies]
